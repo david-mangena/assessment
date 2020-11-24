@@ -1,4 +1,4 @@
-# assessment
+# Selenium Web Automation
 Selenium-WebdriverFramework
 A Maven framework in which to build Selenium tests written in Java with Allure reports of test results.
 
