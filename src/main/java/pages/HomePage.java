@@ -1,5 +1,6 @@
 package pages;
 
+<<<<<<< HEAD
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -108,4 +109,22 @@ public class HomePage {
             }
         }
     }
+=======
+import org.openqa.selenium.WebDriver;
+
+public class HomePage {
+
+    private WebDriver driver;
+
+    public HomePage(WebDriver driver){
+        this.driver = driver;
+    }
+
+    public LoginPage clickFormAuthentication(){
+        driver.get("https://www.saucedemo.com/");
+
+        return new LoginPage(driver);
+    }
+
+>>>>>>> 30e2e9c3eacfa864a973ca9ce0b676f4e7baf79d
 }
